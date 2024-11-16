@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class Average {
 
+    // utility function -- pretty prints an array of any type
     public static <T> void PrintArray(T[] arr) {
         if (arr.length == 0) {
             System.out.println("[]");

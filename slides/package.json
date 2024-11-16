@@ -1,0 +1,14 @@
+{
+  "name": "slides",
+  "version": "1.0.0",
+  "description": "cs 2024 uil slides built with marp",
+  "main": "index.js",
+  "scripts": {
+    "marp": "npx marp -w --alllow-local-files --html --pdf --server  ./content/"
+  },
+  "author": "Carlos Luna <carlosluna3801@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4.0.3"
+  }
+}

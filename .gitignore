@@ -34,3 +34,14 @@ replay_pid*
 
 # LaTeX `minted` pkg
 _minted*/
+
+# editor config
+.vs
+.vscode
+.zed
+
+*.png
+*.pdf
+*.pptx
+
+node_modules

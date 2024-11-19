@@ -1,7 +1,6 @@
-import java.lang.StringBuilder;
 import java.util.Scanner;
 
-public class Average {
+public class Echo {
 
     // utility function -- pretty prints an array of any type
     public static <T> void PrintArray(T[] arr) {
@@ -26,6 +25,7 @@ public class Average {
         System.out.print("> ");
         String message = userInput.nextLine(); // get user input until they hit `Enter`
         System.out.println(message);
+        userInput.close();
     }
 
     // echos the first argument
